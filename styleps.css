@@ -1,0 +1,40 @@
+body {
+background: #7c62f098;
+}
+
+
+section {
+    background: #585858f8;
+}
+h1 {
+    color: coral;
+}
+h2 {
+    color:#dadd1c
+}
+p {
+    color:#0cf1a5
+}
+
+footer {
+    color:#fc0000
+}
+
+.hot-pink {
+    color: #f0c506;
+}
+
+.hotgreen {
+    color: #07e42c;
+}
+
+#top {
+    background: #ffffff;
+}
+a {
+    color: #ffa702;
+}
+
+nav a {
+    color: rgb(231, 10, 10);
+}
