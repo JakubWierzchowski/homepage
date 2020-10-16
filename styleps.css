@@ -9,9 +9,10 @@ section {
 h1 {
     color: coral;
 }
-h2 {
-    color:#dadd1c
+.header-two {
+    color:#a2a352
 }
+    
 p {
     color:#0cf1a5
 }
