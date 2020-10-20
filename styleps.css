@@ -1,19 +1,15 @@
 body {
-  background: #7c62f098;
-}
-
-
-h1 {
-  color: rgba(255, 127, 80, 0.616);
+  background: #ffffff;
 }
 footer {
   color: #fc0000;
 }
-
 .hot-pink {
-  color: #f0c506;
+  color: #CA3C25;
 }
-
+.hot-pink2 {
+      color: #2c1bc0;
+  }
 
 }
 
@@ -23,16 +19,17 @@ footer {
 
 
 nav a {
-  color: black;
+  color: rgb(255, 255, 255);
 }
 
 .box{
-    background: rgba(235, 194, 12, 0.89);
-    width: 50px;
-    height: 50px;
+    background: #4D8B31;
+    display: inline-block;
+    min-width: 100%;
+    height: 100px;
     padding: 15px;
     border: 3px solid black;
-    border-radius: 10%;
+    border-top-right-radius: 5%;
     margin: 10px 0;
     box-sizing: border-box
     z-index: 5000
@@ -42,9 +39,8 @@ nav a {
     position: sticky;
     right: 1px;
     top: 30px;
-    width: 50px;
-    color: black;
-    background: yellow
+    color: #ffffff;
+    background:  #4D8B31
     z-index: 1000
 }
 
@@ -53,7 +49,7 @@ nav a {
         padding: 10px;
     border: 1px solid black;
     margin: 1px;
-    background: rgba(235, 194, 12, 0.2);
+    background: #4D8B31;
         position: fixed;
         right: 3%;
         top: 19px;
@@ -66,15 +62,13 @@ nav a {
 
     .dlaczego_programowanie{
         padding: 16px;
- background: #FF8427;
     }
 
     .dlaczego_programowanie-odp1 {
-background: #4D8B31;
 height: 50px;
 width: 200px;
 border-radius: 30%;
-color: #ffffff;
+color: #1651a8;
     }
     .dlaczego_programowanie-odp2 {
 background: #1E212B;
@@ -90,6 +84,10 @@ a:link {color: ;}
         color: #4D8B31;
         margin-bottom: 15px;
       }
+      
+      
+     
+
 
       .hotgreen {
         padding: 32px;
@@ -101,4 +99,9 @@ a:link {color: ;}
         padding: 48px;
         border: 10px #cccccc solid;
         color: #4D8B31;
+      }
+
+      .main {
+          max-width: 1000px;
+          margin: 0 auto;
       }
