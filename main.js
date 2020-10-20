@@ -1,5 +1,5 @@
-const name = 'Maciek'
-const age = 32
+const name = "Maciek";
+const age = 32;
 console.log(name);
-console.log('hej');
-alert(ok)
+console.log("hej");
+alert(ok);
