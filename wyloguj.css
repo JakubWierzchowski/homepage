@@ -23,3 +23,8 @@ body {
   align-self: flex-end;
   margin-left: 80%;
 }
+
+.legendPunkty {
+    padding: 10px;
+    margin: 0px;
+}
