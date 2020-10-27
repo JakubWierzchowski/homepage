@@ -127,15 +127,15 @@ a:link {color: ;}
   list-style-type: square;
 }
 
+ .table {
+   margin: 10px;
+  width: 100%;
+  text-align: center;
+ }
+
+  
 
 
-
-.tr {
-  padding: 30px 10px;
-  display: flexbox;
-  justify-content: space-between;
-
-}
 
 
 
