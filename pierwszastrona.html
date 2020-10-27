@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-
+    <link href="normalize.css" rel="stylesheet" type="text/css" />
     <link href="styleps.css" rel="stylesheet" type="text/css" />
   </head>
 
@@ -12,32 +12,96 @@
     <header>
       <nav>
         <div class="box">
-              <div class="sticky"> <a href="fanpage.html"> Fanpage</a>
-        </div></div>
+          <div class="sticky"><a href="fanpage.html"> Fanpage</a>
+        <a href="wyloguj.html"> Wyloguj</a>
+        </div>
       </nav>
     </header>
-    <main class="main"> 
-      <header id="top">
+    <main class="main">
+      <header class="main__header" id="top">
         A do stopki skaczemy przez ten link
         <a href="#stopka"> Przejdz do stopki</a>
-        <h1 class="hot-pink">Kim jest ten typ?</h1>
+        <h1 class="main__header main__heading--js">Kim jest ten typ?</h1>
         <p class="hot-pink2">To jest Dj Esquite</p>
       </header>
 
       <section>
         <img src="BRZ_3925.jpg" width="300" height="250" alt="Kubuś" />
         <h2 class="dlaczego_programowanie">Dlaczego programowanie?</h2>
-        <div class="dlaczego_programowanie dlaczego_programowanie-odp1"> bo koronowirus zniszczyl djke</div>
-        <p class="dlaczego_programowanie dlaczego_programowanie-odp2"><a href="https://cotenfrontend.pl"> WTF</a></p>
+        <div class="dlaczego_programowanie dlaczego_programowanie-odp1">
+          bo koronowirus zniszczyl djke
+        </div>
+        <p class="dlaczego_programowanie dlaczego_programowanie-odp2">
+          <a href="https://cotenfrontend.pl"> WTF</a>
         </p>
       </section>
 
       <section>
-        <h2 class="header-two">Notatki z co ten frontend</h2>
         <article class="hotgreen">
+          <h2 class="header-two">Notatki z co ten frontend</h2>
           <h2>Jak dlugo zamierzasz programować?</h2>
           <p>jak dlugo bedzie mi sie chcialo</p>
-          <p class="header-two header-two__description--js"></p>
+          <p class="hotgreen hotgreen__description--js"></p>
+          <section>
+            <h4>Lista fajnych znaczników</h4>
+            <ul class="list">
+              <li class="list__item">UL</li>
+              <li class="list__item">OL</li>
+              <li class="list__item">SECTION</li>
+              <ol>
+                <li>Kup sprzet - im drozszy tym szybciej sie nauczysz</li>
+                <li>Ogladaj tutoriale</li>
+                <li>
+                  Wpierdalaj duzo chipsow i mow ziomeczkom jaki masz fajny
+                  sprzet
+                </li>
+              </ol>
+            </ul>
+            <dl>
+              <dt>div</dt>
+              <dd>Opis mojego diva></dd>
+              <dt>article</dt>
+              <dd>Opis mojego article></dd>
+            </dl>
+          </section>
+          <section>
+            <h4>Kroki do zostania dobrym djem</h4>
+            <ol>
+              <li>Kup sprzet - im drozszy tym szybciej sie nauczysz</li>
+              <li>Ogladaj tutoriale</li>
+              <li>
+                Wpierdalaj duzo chipsow i mow ziomeczkom jaki masz fajny sprzet
+              </li>
+            </ol>
+          </section>
+          <section>
+            <h4>Rozpiska WTF</h4>
+            <table class="table">
+              <caption>
+                Spis odcinkow WTF
+              </caption>
+              <thead>
+                <tr class=tr>
+                  <th>LP</th>
+                  <th>Tytul</th>
+
+                  <th>Czas trwania</th>
+                </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                    <td class="td">1.</td>
+                    <td>Powitanie</td>
+                    <td>05:45</td>
+                  </tr>
+                  <tr>
+                    <td>2.</td>
+                    <td>koniec</td>
+                    <td>06:66</td>
+                  </tr>
+              </tbody>
+            </table>
+          </section>
         </article>
       </section>
 

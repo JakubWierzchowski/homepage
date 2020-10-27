@@ -1,12 +1,19 @@
-const name = "Maciek";
-const age = 32;
+const firstName = "Jakub";
+const age = 27;
 
-console.log(
-    `Witaj Drogi Odwiedzający, nazywam się ${firstName} i mam ${age} lata.`
-);
-const heading = document.querySelector('.main-heading--js');
+
+const heading = document.querySelector('.main__heading--js');
 
 heading.innerHTML = `Witaj Drogi Odwiedzjący, nazywam się ${firstName} i mam ${age} lata.`
 
-const emptyParagraph = document.querySelector('.header-two__description--js');
-emptyParagraph.innerHTML = `Zmiana treści przez js`;
+const emptyParagraph = document.querySelector('.hotgreen__description--js');
+emptyParagraph.innerHTML = `Nawet uzupelnilem tresc javascriptem`;
+
+
+function greet(age, firstName) {
+    console.log(
+        `Witaj Drogi Odwiedzjący, nazywam się ${firstName} i mam ${age} lata.`
+    );
+}
+        greet(age, firstName)
+
