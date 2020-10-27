@@ -16,10 +16,10 @@ body {
 }
 
 .zaloguj {
-background: yellow;
-width: 55px;
-display: flex;
-justify-content: center;
-align-items: flex-end;
-align-self: flex-end;
+  background: yellow;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  align-self: flex-end;
+  margin-left: 80%;
 }
