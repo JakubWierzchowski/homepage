@@ -12,34 +12,45 @@
       <h1>Dawaj dane, kurua!</h1>
       <form class="form">
         <p>
-          <label for="firstName">Your name:</label> </br>
+          <label for="nickName">Your name:</label> </br>
           <input
             class="form__item"
             type="text"
-            id="firstName"
-            name="firstName"
+            id="nickName"
+            name="nickName"
             placeholder="Please enter your name"
         
           />
         </p>
         <p>
           <label
-            >Your Last name:
+            >Your pasword:
             <input
               class="form__item"
-              id="lastName"
-              name="lastName"
-              placeholder="Please enter your last name"
-              
+              id="pasword"
+              name="pasword"
+              placeholder="Please enter your last password"
+              type="password"
             />
           </label>
         </p>
         <fieldset>
         <label>
             Pesel:
-            <input class="form__item" id="city" placeholder="Please enter u pesel" name="pesel">
+            <input class="form__item" id="city" placeholder="Please enter u pesel" name="pesel" type="number">
         </label>
     </fieldset>
+    <p>
+        <label>
+          <input
+            class="form__item"
+            id="avatar"
+            name="avatar"
+            placeholder="Chose u file"
+            type="file"
+          />
+        </label>
+      </p>
     <fildset>
         <legend>Zaznacz prawdziwą odpowiedź</legend>
         <p class="legendPunkty"> 
@@ -49,6 +60,7 @@
             <label><input name="glupota" type="radio">Głosowałem na PIS</label>
         </p>
     </fildset>
+    <p><label><input name=zzgreement" type="checkbox"> Zgadzam się na przetwarzanie danych osobowych</label>
       </form>
       <div class="zaloguj"><a href="pierwszastrona.html"> Zaloguj</a></div>
     </main>
