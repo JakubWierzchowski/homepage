@@ -5,19 +5,30 @@ html {
   box-sizing: inherit;
 }
 body {
-  
-  background-image: url('/homepage/vinyl\ do\ tla.jpg');
-  background-position: right;
-  background-repeat: repeat-y;
-  
- 
+  background: #1a545c;
 }
-  
-  
+  .about {
+
+  }
+  .about__link {
+    color: #92140c;
+  }
+  .about__picture{
+    display: block;
+    max-width: 100%;
+  }
   
 }
 footer {
-  color: #fc0000;
+  color: #fc0000;}
+  
+  .header {
+    background: #ffffff;
+    min-height: 60px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
 }
 .main__header {
   color: #CA3C25;
@@ -119,7 +130,7 @@ a:link {color: ;}
 
       .main {
           max-width: 1000px;
-          margin: 0 auto;
+          margin: 60px auto 0;
       }
     
 
@@ -133,7 +144,47 @@ a:link {color: ;}
   text-align: center;
  }
 
+ .klasa__z--js {
+   background: yellow;
   
+ }
+ .hamburger {
+   position: absolute;
+   top: 20px;
+   right: 10px;
+   border: none;
+   background: none;
+ }
+
+ .navigation {
+   padding: 16px;
+   display: none;
+}
+.navigation--open {
+  display: block;
+}
+  
+  .navigation__link {
+    color: darkorange;
+    display: block;
+    margin: 0 0 16px;
+
+  }
+
+@media (min-width: 768px) {
+  .hamburger {
+    display: none;
+  }
+  .navigation {
+    padding: 16px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    align-items: center;
+}
+
+  }
 
 
 
