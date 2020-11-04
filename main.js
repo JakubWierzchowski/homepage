@@ -17,7 +17,7 @@ const button = document.querySelector(".action--js");
 console.log(button);
 const myClick = () => {
     const heading = document.querySelector(".hot-pink2--js");
-    heading.innerHTML = `Jestem lepszy niz Jiimii`;
+    heading.innerHTML = `Jest lepszy niz Jiimii`;
     heading.classList.toggle('klasa__z--js')
 };
 button.addEventListener('click', myClick);

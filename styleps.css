@@ -5,7 +5,6 @@ html {
   box-sizing: inherit;
 }
 body {
-  background: #1a545c;
 }
   .about {
 
@@ -171,6 +170,12 @@ a:link {color: ;}
 
   }
 
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 16px;
+  }
+
 @media (min-width: 768px) {
   .hamburger {
     display: none;
@@ -180,7 +185,7 @@ a:link {color: ;}
     border-radius: 8px;
     display: flex;
     justify-content: space-around;
-    height: 100px;
+    height: 60px;
     align-items: center;
 }
 
@@ -188,5 +193,6 @@ a:link {color: ;}
 
 
 
+}
 
 
