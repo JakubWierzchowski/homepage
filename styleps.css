@@ -5,9 +5,12 @@ html {
   box-sizing: inherit;
 }
 body {
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(168,231,245,0.8925945378151261) 0%, rgba(75,182,204,0.7861519607843137) 76%);
+
 }
   .about {
-
+background: #ffffff;
   }
   .about__link {
     color: #92140c;
@@ -97,27 +100,48 @@ border-radius: 30%;
 color: #1651a8;
     }
     .dlaczego_programowanie-odp2 {
-background: #1E212B;
-a:link {color: ;}
-		a:visited {color: rgb(255, 255, 255);}
-		a:active {color: rgb(241, 0, 0);}
+background: #ff292948;
+padding: 16px;
 
     }
 
     .header-two {
+      background: #ffffff;
         padding: 16px;
-        border: 1px #cccccc solid;
-        color: #4D8B31;
-        margin-bottom: 15px;
+        color: #1651a8;
+        margin-bottom: 5px;
       }
       
+      .section {
+        background: #fff;
+      }
+
+      .section2 {
+        background: #fff;
+      }
+
+      .tabletitle {
+        color: #4D8B31;
+
+      }
+    
+      .tabletitle::before {
+content: "";
+display: inline-block;
+width: 12px;
+height: 12px;
+margin-right: 5px;
+margin-left: 5px;
+border-radius: 50%;
+background: tomato;
+      }
       
      
 
 
       .hotgreen {
-        padding: 32px;
-        border: 5px #cccccc solid;
+        padding: 10px;
+        
         color: #4D8B31;
       }
 
@@ -135,6 +159,16 @@ a:link {color: ;}
 
 .list {
   list-style-type: square;
+}
+.firstColumn {
+  border: 3px solid #92140c;
+}
+.secondColumn {
+  border: 3px double #6d605fd8;
+}
+.thirdColumn {
+  border: 3px  #9b9062d8;
+  border-style: dashed;
 }
 
  .table {
@@ -170,24 +204,25 @@ a:link {color: ;}
 
   }
 
-  .grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 16px;
-  }
 
 @media (min-width: 768px) {
   .hamburger {
-    display: none;
-  }
+    display: none; }
+  
+    .grid {
+      background: #ffffff;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 16px; }
+
   .navigation {
-    padding: 16px;
+    padding: 10px;
+    margin-top: 20px;
     border-radius: 8px;
     display: flex;
     justify-content: space-around;
-    height: 60px;
-    align-items: center;
-}
+    height: 5px;
+    align-items: center; }
 
   }
 
